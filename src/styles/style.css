@@ -1,0 +1,71 @@
+/* Style général */
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: linear-gradient(135deg, #e6ecf3, #f9fafb);
+  margin: 0;
+  padding: 0;
+}
+
+/* Conteneur des cartes */
+.app {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+/* Titre */
+h1 {
+  color: #2c3e50;
+  margin-bottom: 40px;
+}
+
+/* Carte du hibou */
+.owl-card {
+  background-color: #ffffff;
+  width: 320px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.owl-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.18);
+}
+
+/* Image */
+.owl-image {
+  width: 220px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  transition: transform 0.3s;
+}
+
+.owl-image:hover {
+  transform: scale(1.08);
+}
+
+/* Description */
+.owl-description {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* Message alternatif */
+.owl-no-image {
+  color: #888;
+  font-style: italic;
+  font-size: 14px;
+}
